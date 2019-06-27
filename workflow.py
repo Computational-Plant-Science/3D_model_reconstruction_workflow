@@ -22,7 +22,7 @@ WORKFLOW_CONFIG = {
     "api_version": 0.1,
 
     #The computer readable app name. Must be a valid python module name
-    "app_name": "3d_model_reconstruction_workflow",
+    "app_name": "3D_model_reconstruction_workflow",
 
     ###
     # These values you may need to change
