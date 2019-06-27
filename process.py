@@ -13,7 +13,7 @@ def execute_script(cmd_line):
 
     # Poll process for new output until finished
     while True:
-        nextline = process.stdout.readline()
+        nextline = str(process.stdout.readline())
         if nextline == '' and process.poll() is not None:
             break
         sys.stdout.write(nextline)
